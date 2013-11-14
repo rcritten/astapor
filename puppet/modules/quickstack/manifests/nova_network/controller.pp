@@ -124,6 +124,8 @@ class quickstack::nova_network::controller (
       controller_priv_floating_ip => $controller_priv_floating_ip,
       controller_pub_floating_ip  => $controller_pub_floating_ip,
       qpid_host                   => $qpid_host,
+      qpid_protocol               => $qpid_protocol,
+      qpid_port                   => $qpid_port,
       verbose                     => $verbose,
     }
 
